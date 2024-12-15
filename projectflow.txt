@@ -16,3 +16,12 @@
 12. Then git add-commit-push (we're saving V2 of our data at this point)
 13. Check dvc/git status, everything should be upto date.
 14. Now repeat step 10-12 for v3 of data.
+
+
+To revert back to previous change:-
+ git checkout 6a7c60b
+ git pull
+
+If again wants to do the original one then
+git checkout main
+git pull
